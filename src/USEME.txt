@@ -1,0 +1,172 @@
+HOW TO USE THE GUI
+
+ -- Use the image within the res/Assignment6SampleImage
+
+                              START THE GUI
+
+- Run the JAR file with no command line arguments.
+
+- A screen will pop up.
+-------------------------------------------------------------------------------
+                                  LOAD
+
+- First, to load an image, hit the load button located on the left side.
+
+- Select your image in your directory.
+
+- Once loaded, the image should show up in the middle along with an
+  image histogram containing the intensity, red green and blue components.
+-------------------------------------------------------------------------------
+                                  SAVE
+
+- To save an image, hit the save button located directly to the right,
+  and next to the load button.
+
+- You will be prompted to select a location to save your image, so select
+  a suitable destination.
+
+- Once a destination is selected, in the bar titled "name", name the image,
+  MAKING SURE to put the image type at the end of the name (i.e. .png, .bmp, .ppm, .jpg)
+
+- The image will save to the destination selected along with the given name.
+-------------------------------------------------------------------------------
+                                  BLUR
+
+- Located at the bottom half of the panel.
+
+- To blur the image, click the blur button.
+
+- Blur can be selected as many times as user decides, and the change can be noted both
+  in the image and the image histogram.
+-------------------------------------------------------------------------------
+                             BRIGHTEN/DARKEN
+
+- Located at the bottom half of the panel.
+
+- To brighten/darken the image, click the brighten button, in which you will then be
+  prompted to input an INTEGER, with no spaces inputted.
+
+- Any positive or negative INTEGER may be inputted, with positive values brightening
+  the image and negative values darkening the image.
+
+- Brighten can be selected as many times as user decides, and the change can be noted both
+  in the image and the image histogram.
+-------------------------------------------------------------------------------
+                                DOWNSCALE
+
+- Located at the bottom half of the panel.
+
+- To downscale the image, click the downscale button, in which you will then be
+  prompted to input an INTEGER for width, then an INTEGER for height, with no spaces
+  inputted.
+
+- Only POSITIVE values may be inputted.
+
+- Downscale can be selected as many times as user decides, and the change can be noted both
+  in the image and the image histogram.
+-------------------------------------------------------------------------------
+                                GREEN COMPONENT
+
+- Located at the bottom half of the panel.
+
+- To get the green component of the image, click the green component button.
+
+- Green component can be selected as many times as user decides, however it will
+  not change, unless image pixel values are changed. (i.e. brighten).
+
+- The change can be noted both in the image and the image histogram.
+-------------------------------------------------------------------------------
+                                GREYSCALE
+
+- Located at the bottom half of the panel.
+
+- To get the greyscale of the image, click the greyscale button.
+
+- Greyscale can be selected as many times as user decides, however it will
+  not change, unless image pixel values are changed. (i.e. brighten).
+
+- The change can be noted both in the image and the image histogram.
+-------------------------------------------------------------------------------
+                            HORIZONTAL FLIP
+
+- Located at the bottom half of the panel.
+
+- To horizontally flip the image, click the Horizontal flip button.
+
+- Horizontal flip can be selected as many times as user decides, however it will
+  flip back and forth, unless orientation is vertically changed. (i.e. Vertical flip).
+
+- The change can be noted both in the image.
+-------------------------------------------------------------------------------
+                               INTENSITY COMPONENT
+
+ - Located at the bottom half of the panel.
+
+ - To get the intensity component of the image, click the intensity component button.
+
+ - Intensity component can be selected as many times as user decides, however it will
+   not change, unless image pixel values are changed. (i.e. brighten).
+
+ - The change can be noted both in the image and the image histogram.
+-------------------------------------------------------------------------------
+                                LUMA COMPONENT
+
+- Located at the bottom half of the panel.
+
+- To get the luma component of the image, click the luma component button.
+
+- luma component can be selected as many times as user decides, however it will
+  not change, unless image pixel values are changed. (i.e. brighten).
+
+- The change can be noted both in the image and the image histogram.
+-------------------------------------------------------------------------------
+                                 RED COMPONENT
+
+- Located at the bottom half of the panel.
+
+- To get the red component of the image, click the red component button.
+
+- Red component can be selected as many times as user decides, however it will
+  not change, unless image pixel values are changed. (i.e. brighten).
+
+- The change can be noted both in the image and the image histogram.
+-------------------------------------------------------------------------------
+                                 SEPIA
+
+- Located at the bottom half of the panel.
+- To sepia of the image, click the sepia button.
+
+- Sepia can be selected as many times as user decides, and the change can be noted both
+  in the image and the image histogram.
+-------------------------------------------------------------------------------
+                                 SHARPEN
+
+- Located at the bottom half of the panel.
+
+- To sharpen the image, click the sharpen button.
+
+- Sepia can be selected as many times as user decides, and the change can be noted both
+  in the image and the image histogram.
+-------------------------------------------------------------------------------
+                                 VALUE COMPONENT
+
+- Located at the bottom half of the panel.
+
+- To get the value component of the image, click the value component button.
+
+- Value component can be selected as many times as user decides, however it will
+  not change, unless image pixel values are changed. (i.e. brighten).
+
+- The change can be noted both in the image and the image histogram.
+-------------------------------------------------------------------------------
+                            VERTICAL FLIP
+
+- Located at the bottom half of the panel.
+
+- To vertically flip the image, click the Vertical flip button.
+
+- Vertical flip can be selected as many times as user decides, however it will
+  flip back and forth, unless orientation is horizontally changed. (i.e. Horizontal flip).
+
+- The change can be noted both in the image.
+-------------------------------------------------------------------------------

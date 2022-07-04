@@ -1,0 +1,40 @@
+load cool.bmp cool
+
+brighten 10 cool coolBrighter
+save coolBright.png coolBrighter
+
+vertical-flip cool coolVertical
+save coolVert.png coolVertical
+
+horizontal-flip cool coolHorizontal
+save coolHor.png coolHorizontal
+
+red-component cool coolRedComponent
+save coolRedComp.png coolRedComponent
+
+blue-component cool coolBlueComponent
+save coolBlueComp.png coolBlueComponent
+
+green-component cool coolGreenComponent
+save coolGreenComp.png coolGreenComponent
+
+value-component cool coolValueComponent
+save coolValueComp.png coolValueComponent
+
+luma-component cool coolLumaComponent
+save coolLumaComp.png coolLumaComponent
+
+intensity-component cool coolIntensityComponent
+save coolIntensityComp.png coolIntensityComponent
+
+greyscale cool coolGreyScale
+save coolGreyScale.png coolGreyScale
+
+sepia cool coolSepia
+save coolSepia.png coolSepia
+
+blur cool coolBlur
+save coolBlur.png coolBlur
+
+sharpen cool coolSharpen
+save coolSharpen.png coolSharpen

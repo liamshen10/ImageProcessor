@@ -1,0 +1,37 @@
+package controller.commands;
+
+import model.ImageProcessingModel;
+import model.image.Image;
+import model.image.PpmImage;
+
+/**
+ * class VerticalFlip represents a command to vertically flip an image.
+ */
+public class VerticalFlip extends AbstractFlip implements Command {
+
+
+  /**
+   * constructor that takes in a file name and destination name for the command.
+   *
+   * @param name     name of the file
+   * @param destName destination name of the file
+   */
+  public VerticalFlip(String name, String destName) {
+    super(name, destName);
+  }
+
+  @Override
+  public void run(ImageProcessingModel model) throws IllegalStateException {
+    Image image = model.getImage(name);
+    Image newImage = new PpmImage(image);
+    int height = image.getHeight();
+    int width = image.getWidth();
+
+    for (int y = 0; y < height; y++) {
+      for (int x = 0; x < width; x++) {
+        newImage.setPixel(x, height - y - 1, image.getPixel(x, y));
+      }
+    }
+    model.addImage(destName, newImage);
+  }
+}
